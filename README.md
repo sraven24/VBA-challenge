@@ -3,7 +3,7 @@
 Here is the VBA challenge for module 2.  This project analyzes an Excel file that displays stock purchases and price changes through multiple years.  My script with output the yearly change, percent change and total stock volume for each stock (ticker name) on each page for each worksheet within the workbook.  As a bonus, it will calculate the greatest % increase, greates % decrease, and greatest total volume from the output columns.
 
 # Installation
-Run the VBS script 'stockupdate.vbs' while 'Multiple_year_stock_data.xlsm' is open. In the Excel document, press the button on the first sheet in order to run the macro.
+Run the VBS script 'stockupdate.vbs' while 'Multiple_year_stock_data.xlsm' is open. The sheet should be just the initial data in it. In the Excel document, press the button on the first sheet in order to run the macro and output all calculations.
 
 # Repository Details
 Within this file, you should find the Excel file with the stock data, the vbs file for my macro, and the screenshots of a successful run of the script.  Within the Excel file, there will be a button on the first sheet to run the macro as intended.
