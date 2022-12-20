@@ -1,16 +1,16 @@
 # VBA-challenge
 
-Here is the VBA challenge for module 2.  This project analyzes an Excel file that displays stock purchases and price changes through multiple years.  My script with output the yearly change, percent change and total stock volume for each stock (ticker name) on each page for each worksheet within the workbook.  As a bonus, it will calculate the greatest % increase, greates % decrease, and greatest total volume from the output columns.
+Here is the VBA challenge for module 2.  This project analyzes an Excel file that displays stock purchases and price changes through multiple years.  My script will output the yearly change, percent change and total stock volume for each stock (ticker name) on each page for each worksheet within the workbook.  As a bonus, it will calculate the greatest % increase, greates % decrease, and greatest total volume from the output columns.
 
 # Installation
-Run the VBS script 'stockupdate.vbs' while 'Multiple_year_stock_data.xlsm' is open. The sheet should be just the initial data in it. In the Excel document, press the button on the first sheet in order to run the macro and output all calculations.
+Run the VBS script 'stockupdate.vbs' while 'Multiple_year_stock_data.xlsm' is open. The sheet should be just the initial data in it, as in the calculated fields should still be empty. In the Excel document, press the button on the first sheet in order to run the macro and output all calculations.
 
 # Repository Details
 Within this file, you should find the Excel file with the stock data, the vbs file for my macro, and the screenshots of a successful run of the script.  Within the Excel file, there will be a button on the first sheet to run the macro as intended.
 
 # Resources and comments
 
-In the script there was research needed to understand how to write various parts of the script. Most of this file modeled from the activites done in module 2. The links below are sources used to research various code commands needed to preform the outputs in the file and they are also commented within the script itself.
+In this script there was research needed to understand how to write various parts of the it. Most of this file is modeled from the activites done in module 2. The links below are sources used to research various code commands needed to preform the outputs in the file and they are also commented within the script itself.
 
 'https://www.extendoffice.com/documents/excel/5333-excel-run-macro-multiple-sheets.html
     Was researched to learn how to execute a code over multiple worksheets at once.
