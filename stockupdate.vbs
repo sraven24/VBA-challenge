@@ -1,3 +1,4 @@
+Attribute VB_Name = "Module1"
 Sub Wrkbookupdate()
     
     'https://www.extendoffice.com/documents/excel/5333-excel-run-macro-multiple-sheets.html
@@ -145,7 +146,7 @@ Sub stockreport()
               ' Add one to the summary table row
               summary_stock_row = summary_stock_row + 1
               
-              ' Reset the Brand Total
+              ' Reset the stock total
               stock_total = 0
               
               ' If cells are the same - Add to the total
@@ -274,3 +275,4 @@ Sub stockreport()
     Columns(17).AutoFit
     
 End Sub
+
